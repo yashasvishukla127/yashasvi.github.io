@@ -1,12 +1,12 @@
 # Product Quantization Explained
 
-![Product Quantization Overview](/assets/images/01.png)
+![Product Quantization Overview](/assets/images folder/01.png)
 
 The pain, stated first. "pgvector chokes past ~1-5M vectors because it keeps full-precision float32 vectors in RAM. Qdrant survives that same scale — the difference is a compression trick called product quantization, and understanding it took me way longer than I expected."
 
 ---
 
-![What an Embedding Looks Like](/assets/images/02.png)
+![What an Embedding Looks Like](/assets/images folder/02.png)
 
 What an embedding actually is. One document → one vector of N numbers (e.g. 1536). Each number is a coordinate along a learned direction — not spatial like x/y/z, but the mathematical generalization of it.
 
