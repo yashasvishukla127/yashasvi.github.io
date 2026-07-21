@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Product Quantization Explained"
+date: 2026-07-20
+---
+
 # Product Quantization Explained
 
 ![Product Quantization Overview](/assets/images/001.png)
