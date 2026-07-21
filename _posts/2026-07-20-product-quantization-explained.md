@@ -112,7 +112,8 @@ we repeat the same process till **96th chunk**
 so we get a compressed pq 96 ids for vector 1
 **[33,221,88.......144]**
 
-5th step **
+**5th step** 
+
 now we move on to vector 2
 we repeat the same process
 we pick up **chunk 1 (from step 2) we compare it with chunk
