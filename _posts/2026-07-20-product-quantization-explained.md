@@ -53,6 +53,7 @@ idea here is each similar chunk from each vector lives in similar dimensional sp
 
 
 **3rd step**
+--
 ![What an Embedding Looks Like]({{ site.baseurl }}/assets/images/05.png)
 
 Next, we take Chunk 1 from every vector. Since each Chunk 1 represents dimensions 1–16, we now have 1 million 16-dimensional chunks. We then run k-means clustering on these chunks.
@@ -84,6 +85,7 @@ the compression begins
 
 
 **4th step**
+--
 ![What an Embedding Looks Like]({{ site.baseurl }}/assets/images/08.png)
 
 remember at second step we have divided each vector into 96 chunks
@@ -113,6 +115,7 @@ so we get a compressed pq 96 ids for vector 1
 **[33,221,88.......144]**
 
 **5th step** 
+--
 
 now we move on to vector 2
 we repeat the same process
