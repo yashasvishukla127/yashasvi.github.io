@@ -1,6 +1,6 @@
 # Product Quantization Explained
 
-![Product Quantization Overview](/assets/images folder/01.png)
+![Product Quantization Overview](/assets/images folder/001.png)
 
 The pain, stated first. "pgvector chokes past ~1-5M vectors because it keeps full-precision float32 vectors in RAM. Qdrant survives that same scale — the difference is a compression trick called product quantization, and understanding it took me way longer than I expected."
 
