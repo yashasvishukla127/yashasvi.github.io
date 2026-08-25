@@ -10,3 +10,6 @@ we saw how an approximately 6 GB vector dataset containing one million vectors w
 
 **continuing from the last blog**
 
+![user querry getting converted into embedding]({{ site.baseurl }}/assets/images/2.6.png)
+
+when querry comes in first it's converted into embeddings - from that same model which have converted the doc into embedding each embedding is converted into 96 chunks of 16 dimensions
