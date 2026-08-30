@@ -21,9 +21,9 @@ we pick querry's chunk 1st/96 - measure the distance against each ofchunk 1's256
 we store all the distance we have measured for querry chunk 1 against all 256 centroids in a LOOKUP table_1 (256 entries).
 
  ## Step 8
- 
+ ![distance measuring against each chunk ]({{ site.baseurl }}/assets/images/2.8.png)
  distance measuring against each centroid for chunk 2 ,chunk 3 .....chunk 96 
-![distance measuring against each chunk ]({{ site.baseurl }}/assets/images/2.8.png)
+
   we repeat the same process for
 querry's chunk 2nd/96 - measured against chunks 2's 256 centroids ( made at step 3)- LOOKUP_table_2 with 256 entries is created for this chunk 2 also
 then qeurry's chunk 3/96 - LOOKUP_table_3 created
@@ -32,8 +32,10 @@ till querry's chunk 96/96 - LOOKUP_table_96 created
 we do it once for a querry we recieve every time
 
   ## Step 9 
+    ![using lookup table to get distances for vector #1  ]({{ site.baseurl }}/assets/images/2.9.png)
+
  important step here !! every thing combines and gives us the result 
-  ![using lookup table to get distances for vector #1  ]({{ site.baseurl }}/assets/images/2.9.png)
+
 
    things are bit complex here read carefully 2-3 times -
 remember these 2 points
