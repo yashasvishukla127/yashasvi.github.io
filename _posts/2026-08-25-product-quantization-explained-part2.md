@@ -20,7 +20,8 @@ when querry comes in first it's converted into embeddings - from that same model
 we pick querry's chunk 1st/96 - measure the distance against each ofchunk 1's256 centroids which we made atstep 3( check prev blog )
 we store all the distance we have measured for querry chunk 1 against all 256 centroids in a LOOKUP table_1 (256 entries).
 
- ## Step 8 
+ ## Step 8
+ 
  distance measuring against each centroid for chunk 2 ,chunk 3 .....chunk 96 
 ![distance measuring against each chunk ]({{ site.baseurl }}/assets/images/2.8.png)
   we repeat the same process for
