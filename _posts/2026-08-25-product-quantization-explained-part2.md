@@ -31,7 +31,8 @@ then qeurry's chunk 3/96 - LOOKUP_table_3 created
 till querry's chunk 96/96 - LOOKUP_table_96 created
 we do it once for a querry we recieve every time
 
-  ## Step 9 
+## Step 9
+  
     ![using lookup table to get distances for vector #1  ]({{ site.baseurl }}/assets/images/2.9.png)
 
  important step here !! every thing combines and gives us the result 
@@ -51,6 +52,21 @@ then compressed array reference 3/96 we check with lookup_table_3 we store the d
 ..
 ..
 we continue this for array reference 96/96 we check till lookup_table_96 we store the distance
- 
+
+
+ ## Step 10
+
+ ![Addition  ]({{ site.baseurl }}/assets/images/2.10.png)
+
+we add all the distances we measured in prev step for vector 1
+
+
+
+## Step 11
+
+![ Repeat the same process for All 1M vectors ]({{ site.baseurl }}/assets/images/2.11.png)
+now just like we have done the operation in step 09
+we are going to repeat that operations for vector 2 till vector 1Million.
+and store the total distance for each vecotr 2 , vector 3 , ....... vector 1 Million.
 
 
